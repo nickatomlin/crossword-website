@@ -34,14 +34,17 @@ h1 {
   text-align: center;
 }
 
+.names {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .name {
   font-family: 'Calibre';
   display: inline-block;
   width: 32%;
   text-align: center;
   font-weight: 500;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 #emails {
