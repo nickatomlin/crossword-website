@@ -1,0 +1,79 @@
+body {
+  max-width: 600px;
+  padding: 60px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url("fonts/CalibreWeb-Regular.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url("fonts/CalibreWeb-Medium.woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url("fonts/CalibreWeb-Semibold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url("fonts/CalibreWeb-Bold.woff");
+  font-weight: 900;
+}
+
+h1 {
+  font-family: 'Calibre';
+  font-weight: 900;
+  text-align: center;
+}
+
+.name {
+  font-family: 'Calibre';
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  font-weight: 500;
+}
+
+#emails {
+  font-family: Courier;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#content {
+  padding-top: 60px;
+  font-family: 'Calibre';
+  font-weight: 300;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+.grid_img {
+  padding: 30px;
+  text-align: center;
+}
+
+#grid {
+  width: 100%;
+}
+
+#grid_caption {
+  font-family: 'Calibre';
+  text-align: center;
+  display: inline;
+}

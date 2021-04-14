@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <title>Berkeley Crossword Solver</title>
+  </head>
+  <body>
+    <h1>The Berkeley Crossword Solver</h1>
+      <div class="names">
+        <span class="name">Eshaan Pathak</span>
+        <span class="name">Nicholas Tomlin</span>
+        <span class="name">Eric Wallace</span>
+      </div>
+      <div class="names">
+        <span class="name">Albert Xu</span>
+        <span class="name">Kevin Yang</span>
+        <span class="name">Dan Klein</span>
+      </div>
+      <div id="emails">
+        {eshaanpathak, nicholas_tomlin, albertxu3, ericwallace, yangk}@berkeley.edu
+      </div>
+      <div id="content">
+        We built an automated crossword solver using state-of-the-art neural network models for open-domain question-answering and assorted techniques for constraint satisfaction solving. Our system, known as the Berkeley Crossword Solver, is designed to solve American-style crossword puzzles like <a href="https://en.wikipedia.org/wiki/The_New_York_Times_crossword_puzzle">The New York Times Crossword</a>. These crosswords often involve challenging themes, puns, and world knowledge and typically range in grid size from 15x15 to 21x21.
+        <div class="grid_img">
+          <img id="grid" src="images/grid.png" alt="An example crossword grid"/>
+          <span id="grid_caption">Figure: An example crossword grid.</span>
+        </div>
+        Our solver follows a two-step process. First, given a set of clues, generate potential answers using a <a href="https://arxiv.org/abs/2004.04906">dense passage retrieval</a> model trained on existing publicly available crossword data. We then assign a calibrated probability to each generated candidate answer and feed these into a constraint solver. We're currently using Matt Ginsberg's <a href="https://en.wikipedia.org/wiki/Dr.Fill">Dr. Fill</a> as our constraint solver, but are experimenting with other methods as well. Combined with Dr. Fill, we believe our system is the strongest automated crossword solver in the world, on par with the best human solvers.
+      </div>
+  </body>
+</html>
